@@ -8,8 +8,8 @@ android {
         applicationId "com.alexbonavila.alumne.recuperacioonesignal"
 
         manifestPlaceholders = [manifestApplicationId: "${applicationId}",
-                                onesignal_app_id: "b2f7f966-d8cc-11e4-bed1-df8f05be55ba",
-                                onesignal_google_project_number: "703322744261"]
+                                onesignal_app_id: "521c1f5e-ada1-4a57-9c11-90cd71099d8a",
+                                onesignal_google_project_number: "556866713467"]
 
         minSdkVersion 15
         targetSdkVersion 23
