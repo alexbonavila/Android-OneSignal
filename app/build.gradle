@@ -6,6 +6,11 @@ android {
 
     defaultConfig {
         applicationId "com.alexbonavila.alumne.recuperacioonesignal"
+
+        manifestPlaceholders = [manifestApplicationId: "${applicationId}",
+                                onesignal_app_id: "b2f7f966-d8cc-11e4-bed1-df8f05be55ba",
+                                onesignal_google_project_number: "703322744261"]
+
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
